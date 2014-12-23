@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9552B69D1A49D71100F3FDC0 /* battery@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9552B69A1A49D71100F3FDC0 /* battery@3x.png */; };
+		9552B6AC1A49E11300F3FDC0 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9552B6A91A49E11300F3FDC0 /* battery.png */; };
+		9552B6AD1A49E11300F3FDC0 /* battery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9552B6AA1A49E11300F3FDC0 /* battery@2x.png */; };
+		9552B6AE1A49E11300F3FDC0 /* battery@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9552B6AB1A49E11300F3FDC0 /* battery@3x.png */; };
 		9583F8041A32223C000B5F38 /* SBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9583F8031A32223C000B5F38 /* SBManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9583F80A1A32223C000B5F38 /* SBManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9583F7FE1A32223C000B5F38 /* SBManager.framework */; };
 		9583F8111A32223C000B5F38 /* SBManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9583F8101A32223C000B5F38 /* SBManagerTests.swift */; };
@@ -25,9 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9552B6991A49D71100F3FDC0 /* battery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "battery@2x.png"; path = "battery/battery@2x.png"; sourceTree = SOURCE_ROOT; };
-		9552B69A1A49D71100F3FDC0 /* battery@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "battery@3x.png"; path = "battery/battery@3x.png"; sourceTree = SOURCE_ROOT; };
-		9552B69B1A49D71100F3FDC0 /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = battery.png; path = battery/battery.png; sourceTree = SOURCE_ROOT; };
+		9552B6A91A49E11300F3FDC0 /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery.png; sourceTree = "<group>"; };
+		9552B6AA1A49E11300F3FDC0 /* battery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery@2x.png"; sourceTree = "<group>"; };
+		9552B6AB1A49E11300F3FDC0 /* battery@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery@3x.png"; sourceTree = "<group>"; };
 		9583F7FE1A32223C000B5F38 /* SBManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9583F8021A32223C000B5F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9583F8031A32223C000B5F38 /* SBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBManager.h; sourceTree = "<group>"; };
@@ -87,9 +89,9 @@
 		9583F8011A32223C000B5F38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9552B6991A49D71100F3FDC0 /* battery@2x.png */,
-				9552B69A1A49D71100F3FDC0 /* battery@3x.png */,
-				9552B69B1A49D71100F3FDC0 /* battery.png */,
+				9552B6A91A49E11300F3FDC0 /* battery.png */,
+				9552B6AA1A49E11300F3FDC0 /* battery@2x.png */,
+				9552B6AB1A49E11300F3FDC0 /* battery@3x.png */,
 				9583F8021A32223C000B5F38 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -202,7 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9552B69D1A49D71100F3FDC0 /* battery@3x.png in Resources */,
+				9552B6AD1A49E11300F3FDC0 /* battery@2x.png in Resources */,
+				9552B6AE1A49E11300F3FDC0 /* battery@3x.png in Resources */,
+				9552B6AC1A49E11300F3FDC0 /* battery.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +341,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SBManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -356,7 +360,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SBManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -236,7 +236,6 @@ public class StatusBarManager : NSObject, UIGestureRecognizerDelegate {
 //                                batteryShapeLayer3.fillColor = UIColor.clearColor().CGColor
 //                                
 //                                batteryReplacementView!.layer.addSublayer(batteryShapeLayer3)
-                                
                             }
                             
                             
