@@ -159,83 +159,6 @@ public class StatusBarManager : NSObject, UIGestureRecognizerDelegate {
                                 batteryReplacementView?.tintColor = color
                                 batteryReplacementView?.contentMode = .Left
                                 battery.superview?.addSubview(batteryReplacementView!)
-//                                
-//                                //// Page-
-//                                //// Battery
-//                                //// Shape Drawing
-//                                var shapePath = UIBezierPath()
-//                                shapePath.moveToPoint(CGPointMake(23, 12))
-//                                shapePath.addLineToPoint(CGPointMake(23.33, 12))
-//                                shapePath.addCurveToPoint(CGPointMake(24, 11.05), controlPoint1: CGPointMake(23.7, 12), controlPoint2: CGPointMake(24, 11.41))
-//                                shapePath.addLineToPoint(CGPointMake(24, 9.7))
-//                                shapePath.addCurveToPoint(CGPointMake(23.33, 8.75), controlPoint1: CGPointMake(24, 9.34), controlPoint2: CGPointMake(23.7, 8.75))
-//                                shapePath.addLineToPoint(CGPointMake(23, 8.75))
-//                                shapePath.addLineToPoint(CGPointMake(23, 12))
-//                                shapePath.addLineToPoint(CGPointMake(23, 12))
-//                                shapePath.closePath()
-//                                shapePath.miterLimit = 4;
-//                                
-//                                shapePath.usesEvenOddFillRule = true;
-//                                
-//                                let batteryShapeLayer1 = CAShapeLayer()
-//                                batteryShapeLayer1.path = shapePath.CGPath
-//                                batteryShapeLayer1.fillColor = color.CGColor
-//                                batteryShapeLayer1.strokeColor = UIColor.clearColor().CGColor
-//                                
-//                                batteryReplacementView!.layer.addSublayer(batteryShapeLayer1)
-//                                
-//                                //// Shape 2 Drawing
-//                                var shape2Path = UIBezierPath()
-//                                shape2Path.moveToPoint(CGPointMake(11.5, 14))
-//                                shape2Path.addLineToPoint(CGPointMake(1.84, 14))
-//                                shape2Path.addCurveToPoint(CGPointMake(1, 13.11), controlPoint1: CGPointMake(1.38, 14), controlPoint2: CGPointMake(1, 13.6))
-//                                shape2Path.addLineToPoint(CGPointMake(1, 6.89))
-//                                shape2Path.addCurveToPoint(CGPointMake(1.84, 6), controlPoint1: CGPointMake(1, 6.4), controlPoint2: CGPointMake(1.38, 6))
-//                                shape2Path.addLineToPoint(CGPointMake(11.5, 6))
-//                                shape2Path.addLineToPoint(CGPointMake(21.16, 6))
-//                                shape2Path.addCurveToPoint(CGPointMake(22, 6.89), controlPoint1: CGPointMake(21.62, 6), controlPoint2: CGPointMake(22, 6.4))
-//                                shape2Path.addLineToPoint(CGPointMake(22, 13.11))
-//                                shape2Path.addCurveToPoint(CGPointMake(21.16, 14), controlPoint1: CGPointMake(22, 13.6), controlPoint2: CGPointMake(21.62, 14))
-//                                shape2Path.addLineToPoint(CGPointMake(11.5, 14))
-//                                shape2Path.addLineToPoint(CGPointMake(11.5, 14))
-//                                shape2Path.closePath()
-//                                shape2Path.miterLimit = 4;
-//                                
-//                                shape2Path.usesEvenOddFillRule = true;
-//                                
-//                                let batteryShapeLayer2 = CAShapeLayer()
-//                                batteryShapeLayer2.path = shape2Path.CGPath
-//                                batteryShapeLayer2.fillColor = color.CGColor
-//                                batteryShapeLayer2.strokeColor = UIColor.clearColor().CGColor
-//                                
-//                                batteryReplacementView!.layer.addSublayer(batteryShapeLayer2)
-//                                
-//                                
-//                                //// Shape 3 Drawing
-//                                var shape3Path = UIBezierPath()
-//                                shape3Path.moveToPoint(CGPointMake(1.72, 5.5))
-//                                shape3Path.addLineToPoint(CGPointMake(21.28, 5.5))
-//                                shape3Path.addCurveToPoint(CGPointMake(22.5, 6.73), controlPoint1: CGPointMake(21.95, 5.5), controlPoint2: CGPointMake(22.5, 6.05))
-//                                shape3Path.addLineToPoint(CGPointMake(22.5, 13.27))
-//                                shape3Path.addCurveToPoint(CGPointMake(21.28, 14.5), controlPoint1: CGPointMake(22.5, 13.95), controlPoint2: CGPointMake(21.95, 14.5))
-//                                shape3Path.addLineToPoint(CGPointMake(1.72, 14.5))
-//                                shape3Path.addCurveToPoint(CGPointMake(0.5, 13.27), controlPoint1: CGPointMake(1.05, 14.5), controlPoint2: CGPointMake(0.5, 13.95))
-//                                shape3Path.addLineToPoint(CGPointMake(0.5, 6.73))
-//                                shape3Path.addCurveToPoint(CGPointMake(1.72, 5.5), controlPoint1: CGPointMake(0.5, 6.05), controlPoint2: CGPointMake(1.05, 5.5))
-//                                shape3Path.addLineToPoint(CGPointMake(1.72, 5.5))
-//                                shape3Path.closePath()
-//                                shape3Path.miterLimit = 4;
-//                                
-//                                shape3Path.usesEvenOddFillRule = true;
-//                                
-//                                
-//                                let batteryShapeLayer3 = CAShapeLayer()
-//                                batteryShapeLayer3.path = shape3Path.CGPath
-//                                batteryShapeLayer3.strokeColor = color.CGColor
-//                                batteryShapeLayer3.lineWidth = 0.25
-//                                batteryShapeLayer3.fillColor = UIColor.clearColor().CGColor
-//                                
-//                                batteryReplacementView!.layer.addSublayer(batteryShapeLayer3)
                             }
                             
                             
@@ -281,11 +204,9 @@ public class StatusBarManager : NSObject, UIGestureRecognizerDelegate {
                                 wifiPath.closePath()
                                 wifiPath.miterLimit = 4;
                                 
-                                
                                 var wifiTransform = CGAffineTransformMakeTranslation(CGRectGetMidX(wifiReplacementView!.bounds) / 2.0, CGRectGetMidY(wifiReplacementView!.bounds) / 2.0)
                                 wifiTransform = CGAffineTransformScale(wifiTransform, 0.5, 0.5)
                                 wifiPath.applyTransform(wifiTransform)
-                                
                                 
                                 wifiPath.usesEvenOddFillRule = true;
                                 
@@ -296,9 +217,7 @@ public class StatusBarManager : NSObject, UIGestureRecognizerDelegate {
                                 wifiShapeLayer.strokeColor = UIColor.clearColor().CGColor
                                 
                                 wifiReplacementView!.layer.addSublayer(wifiShapeLayer)
-                                
                             }
-                            
                             
                             if fakeStatusVisible {
                                 wifi.hidden = false
@@ -310,9 +229,8 @@ public class StatusBarManager : NSObject, UIGestureRecognizerDelegate {
                         }
                     }
                     
-                    if subsubview.isKindOfClass(NSClassFromString("UIStatusBarSignalStrengthItemView")) {
+                    if subsubview.isKindOfClass(NSClassFromString("UIStatusBarSignalStrengthItemView")) || subsubview.isKindOfClass(NSClassFromString("UIStatusBarServiceItemView")) {
                         if let signalView = subsubview as? UIView {
-                            
                             
                             if signalReplacementView == nil {
                                 signalReplacementView = UIView(frame: CGRectMake(6.5, -0.5, 35, 20))

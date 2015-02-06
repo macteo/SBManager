@@ -14,6 +14,9 @@
 		95AB7A8C1A30468B00CBB42C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AB7A8B1A30468B00CBB42C /* Images.xcassets */; };
 		95AB7A8F1A30468B00CBB42C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95AB7A8D1A30468B00CBB42C /* LaunchScreen.xib */; };
 		95AB7A9B1A30468B00CBB42C /* status_replacerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB7A9A1A30468B00CBB42C /* status_replacerTests.swift */; };
+		95DF78F11A84ACAA00AB4023 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DF78EE1A84ACAA00AB4023 /* battery.png */; };
+		95DF78F21A84ACAA00AB4023 /* battery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DF78EF1A84ACAA00AB4023 /* battery@2x.png */; };
+		95DF78F31A84ACAA00AB4023 /* battery@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DF78F01A84ACAA00AB4023 /* battery@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		95AB7A941A30468B00CBB42C /* status-replacerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "status-replacerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AB7A991A30468B00CBB42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95AB7A9A1A30468B00CBB42C /* status_replacerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = status_replacerTests.swift; sourceTree = "<group>"; };
+		95DF78EE1A84ACAA00AB4023 /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery.png; sourceTree = "<group>"; };
+		95DF78EF1A84ACAA00AB4023 /* battery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery@2x.png"; sourceTree = "<group>"; };
+		95DF78F01A84ACAA00AB4023 /* battery@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,9 @@
 				95AB7A881A30468B00CBB42C /* Main.storyboard */,
 				95AB7A8B1A30468B00CBB42C /* Images.xcassets */,
 				95AB7A8D1A30468B00CBB42C /* LaunchScreen.xib */,
+				95DF78EE1A84ACAA00AB4023 /* battery.png */,
+				95DF78EF1A84ACAA00AB4023 /* battery@2x.png */,
+				95DF78F01A84ACAA00AB4023 /* battery@3x.png */,
 				95AB7A821A30468B00CBB42C /* Supporting Files */,
 			);
 			path = "status-replacer";
@@ -270,6 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95AB7A8A1A30468B00CBB42C /* Main.storyboard in Resources */,
+				95DF78F31A84ACAA00AB4023 /* battery@3x.png in Resources */,
+				95DF78F11A84ACAA00AB4023 /* battery.png in Resources */,
+				95DF78F21A84ACAA00AB4023 /* battery@2x.png in Resources */,
 				95AB7A8F1A30468B00CBB42C /* LaunchScreen.xib in Resources */,
 				95AB7A8C1A30468B00CBB42C /* Images.xcassets in Resources */,
 			);
